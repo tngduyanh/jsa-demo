@@ -1,2 +1,305 @@
+@import url('https://fonts.googleapis.com/css2?family=Commissioner&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap');
+/* font-family: 'Commissioner', sans-serif; */
+/* font-family: 'Montserrat', sans-serif; */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
 
+.max-width{
+    max-width: 1300px;
+    padding: 50px;
+    margin: auto;
+}
+nav{
+    margin-left: 10%;
+}
+nav .max-width{
+    display: flex;
+    justify-content: space-around;
+}
+nav .link-menu a{
+    position: relative;
+    display: inline-block;
+    padding: 0 30px;
+    color: white;
+    letter-spacing: -0.5px;
+    text-decoration: none;
+}
+
+.max-width .logo{
+    z-index: 9;
+}
+
+.max-width .logo img{
+    height: 100px;
+    width: 100px;
+}
+.max-width .link-menu{
+    width: 800px;
+    line-height: 50px;
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.max-width .link-menu a{
+    color: white;
+    font-family: 'Commissioner', sans-serif;
+    font-size: 22px;
+
+    z-index: 4;
+}
+
+.home-menu{
+    background-image: url("https://www.blueosa.com/wp-content/uploads/2020/01/the-best-top-10-indian-dishes.jpg");
+    height: 700px;
+    background-size: cover;
+
+    position: relative;
+    z-index: 1;
+}
+
+/* .max-width .tittle{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 40px;
+    text-align: center;
+} */
+
+.content-menu{
+    width: 700px;
+    height: 400px;
+    margin-left: 10%;
+    margin-top: 8%;
+    color: white;
+    position: relative;
+
+    z-index: 999;
+}
+
+.content-menu .text p{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 40px;
+    text-align: left;
+    z-index: 9;
+}
+
+.content-menu .multi-button{
+    width: 320px;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.content-menu .multi-button button{
+    width: 150px;
+    height: 40px;
+    outline: none;
+    border: none;
+    background: none;
+    border: solid 2px orange;
+    border-radius: 30px;
+}
+#button1{
+    background-color: orange;
+    color: white;
+}
+#button2{
+    color: orange;
+}
+
+.opacity-menu{
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    opacity: 0.7;
+    position: absolute;
+    z-index: 2;
+}
+
+.max-width .title{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 40px;
+    text-align: center;
+}
+
+.max-width .orange-bar{
+    width: 100px;
+    height: 2px;
+    background-color: orange;
+    margin-top: 30px;
+}
+
+.home-content .max-width{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.home-content .max-width .about{
+    margin-top: 30px;
+}
+
+.max-width .about p {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    line-height: 30px;
+    font-weight: 300;
+}
+
+.home-content .max-width .content-boxes{
+    margin: 0 auto;
+    margin-top: 30px;
+    width: 1100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.content-boxes .content-box{
+    width: 250px;
+    height: fit-content;
+}
+
+.content-boxes .content-box i{
+    color: orange;
+    font-size: 50px;
+    line-height: 70px;
+}
+
+.content-boxes .content-box p{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+    line-height: 30px;
+    font-weight: 600;
+    text-align: justify;
+}
+
+.content-boxes .content-box .title{
+    font-size: 20px;
+    text-align: left;
+    line-height: 40px;
+}
+
+.home-banner{
+    width: 100%;
+    margin-top: 30px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+}
+
+.home-banner .banner-image{
+    width: 25%;
+    height: 275px;
+    z-index: 1;
+}
+
+.home-banner .banner-image img{
+    width: 100%;
+    height: 275px;
+    border: none;
+    display: block;
+    z-index: 1;
+}
+
+.content-guidance{
+    width: 100%;
+    height: 700px;
+    background-color: rgb(240, 240, 240);
+}
+
+.content-guidance .guidance{
+    width: 800px;
+    height: fit-content;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.content-guidance .guidance img{
+    width: 200px;
+    height: 410px;
+}
+
+.content-guidance .max-width{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.guidance .steps{
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.steps .step{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.steps .step i{
+    font-size: 50px;
+    color: orange;
+}
+
+.steps .step p{
+    font-family: 'Montserrat', sans-serif;
+    margin-left: 20px;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.steps .download img{
+    width: 160px;
+    height: 50px;
+}
+
+.footer{
+    background-color: black;
+    width: 100%;
+}
+
+.footer .max-width{
+    display: flex;
+    flex-direction: column;
+}
+
+.footer .max-width .info-top{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.info-top .menu {
+    width: 40%;
+}
+
+.info-top .menu a {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    color: rgb(179, 177, 177);
+    font-weight: 400;
+}
+
+.footer .max-width .icon-contact {
+    color: rgb(179, 177, 177);
+    width: 15%;
+    margin-top: 10px;
+    font-size: 30px;
+    display: flex;
+    justify-content: space-between;
+}
   
