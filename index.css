@@ -30,6 +30,12 @@ nav .link-menu a{
     text-decoration: none;
 }
 
+body{
+    background-image: url("./brg.jpg");
+    background-size: 170%;
+    color: rgb(255, 255, 255);
+}
+
 .max-width .logo{
     z-index: 9;
 }
@@ -37,6 +43,7 @@ nav .link-menu a{
 .max-width .logo img{
     height: 100px;
     width: 100px;
+    border-radius: 100%;
 }
 .max-width .link-menu{
     width: 800px;
@@ -57,7 +64,7 @@ nav .link-menu a{
 }
 
 .home-menu{
-    background-image: url("https://www.blueosa.com/wp-content/uploads/2020/01/the-best-top-10-indian-dishes.jpg");
+    background-image: url("./brnd.jpg");
     height: 700px;
     background-size: cover;
 
@@ -118,7 +125,7 @@ nav .link-menu a{
     width: 100%;
     height: 100%;
     background-color: black;
-    opacity: 0.7;
+    opacity: 0.1;
     position: absolute;
     z-index: 2;
 }
@@ -302,4 +309,3 @@ nav .link-menu a{
     display: flex;
     justify-content: space-between;
 }
-  
