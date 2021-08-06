@@ -1,8 +1,23 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Commissioner&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap');
+/* font-family: 'Commissioner', sans-serif; */
+/* font-family: 'Montserrat', sans-serif; */
+@import url('https://fonts.googleapis.com/css2?family=Georama:wght@100&display=swap');
+/* font-family: 'Georama', sans-serif; */
+@import url('https://fonts.googleapis.com/css2?family=Gowun+Dodum&display=swap');
+/* font-family: 'Gowun Dodum', sans-serif; */
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap');
+/* font-family: 'Quicksand', sans-serif; */
+@import url('https://fonts.googleapis.com/css2?family=Gowun+Batang&display=swap');
+/* font-family: 'Gowun Batang', serif; */
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     text-decoration: none;
+    font-family: 'Georama', sans-serif;
+    font-weight: 700;
 }
 
 .max-width{
@@ -28,7 +43,7 @@ nav .link-menu a{
 
 body{
     background-image: url("./brg.jpg");
-    background-size: 170%;
+    background-size:cover;
     color: rgb(255, 255, 255);
 }
 
@@ -53,7 +68,7 @@ body{
 
 .max-width .link-menu a{
     color: white;
-    font-family: 'Commissioner', sans-serif;
+    font-family: 'Georama', sans-serif;
     font-size: 22px;
 
     z-index: 4;
@@ -61,7 +76,7 @@ body{
 
 .home-menu{
     background-image: url("./brnd.jpg");
-    height: 700px;
+    height: 400px;
     background-size: cover;
 
     position: relative;
@@ -86,7 +101,7 @@ body{
 }
 
 .content-menu .text p{
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Georama', sans-serif;
     font-size: 40px;
     text-align: left;
     z-index: 9;
@@ -127,7 +142,7 @@ body{
 }
 
 .max-width .title{
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Georama', sans-serif;
     font-size: 40px;
     text-align: center;
 }
@@ -150,7 +165,7 @@ body{
 }
 
 .max-width .about p {
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Georama', sans-serif;
     font-size: 20px;
     line-height: 30px;
     font-weight: 300;
@@ -177,7 +192,7 @@ body{
 }
 
 .content-boxes .content-box p{
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Georama', sans-serif;
     font-size: 15px;
     line-height: 30px;
     font-weight: 600;
@@ -197,20 +212,23 @@ body{
     display: flex;
     flex-wrap: wrap;
     position: relative;
+    justify-content: center;
 }
 
 .home-banner .banner-image{
-    width: 25%;
-    height: 275px;
+    width: 200px;
+    height: 200px;
     z-index: 1;
 }
 
 .home-banner .banner-image img{
     width: 100%;
-    height: 275px;
+    height: 200px;
     border: none;
-    display: block;
+    display: flex;
+    flex-direction: row;
     z-index: 1;
+    
 }
 
 .content-guidance{
@@ -258,7 +276,7 @@ body{
 }
 
 .steps .step p{
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Georama', sans-serif;
     margin-left: 20px;
     font-size: 20px;
     font-weight: 700;
@@ -291,7 +309,7 @@ body{
 }
 
 .info-top .menu a {
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Georama', sans-serif;
     font-size: 20px;
     color: rgb(179, 177, 177);
     font-weight: 400;
@@ -307,26 +325,29 @@ body{
 }
   
 
-
+.ha{
+    font-size: larger;
+}
 
 
 .ab {
-    border: 10px solid rgba(231, 103, 109, 0.829);
-    width: 400px;
+    border: 10px solid rgba(0, 13, 71, 0.829);
+    width: 500px;
   }
   .clgt {
-    width: 380px;
+    width: 480px;
     height: 400px;
   }
   .bo:hover {
     background-color: cornflowerblue;
   }
   .kobe {
-    border: 10px solid rgba(231, 103, 109, 0.829);
-    width: 400px;
+    border: 10px solid rgba(0, 13, 71, 0.829);
+    width: 500px;
+    height: 700px;
   }
   .kobe2 {
-    width: 400px;
+    width: 480px;
     height: 400px;
   }
   .bo:ha {
@@ -338,11 +359,11 @@ body{
 }
 
 .ac {
-  border: 10px solid rgba(231, 103, 109, 0.829);
-  width: 400px;
+  border: 10px solid rgba(0, 13, 71, 0.829);
+  width: 500px;
 }
 .buoi {
-  width: 380px;
+  width: 480px;
   height: 400px;
 }
 .cac:hover {
@@ -353,7 +374,7 @@ body{
 }
 
 .ad {
-  border: 10px solid rgba(231, 103, 109, 0.829);
+  border: 10px solid rgba(0, 13, 71, 0.829);
   width: 251px;
 }
 .sv {
@@ -368,7 +389,7 @@ body{
 }
 
 .ae {
-  border: 10px solid rgba(231, 103, 109, 0.829);
+  border: 10px solid rgba(0, 13, 71, 0.829);
   width: 251px;
 }
 .an {

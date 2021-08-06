@@ -7,20 +7,36 @@
     font-weight: normal;
     font-style: normal;
 }
+@import url('https://fonts.googleapis.com/css2?family=Commissioner&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap');
+/* font-family: 'Commissioner', sans-serif; */
+/* font-family: 'Montserrat', sans-serif; */
+@import url('https://fonts.googleapis.com/css2?family=Georama:wght@100&display=swap');
+/* font-family: 'Georama', sans-serif; */
+@import url('https://fonts.googleapis.com/css2?family=Gowun+Dodum&display=swap');
+/* font-family: 'Gowun Dodum', sans-serif; */
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap');
+/* font-family: 'Quicksand', sans-serif; */
+@import url('https://fonts.googleapis.com/css2?family=Gowun+Batang&display=swap');
+/* font-family: 'Gowun Batang', serif; */
+*{
+    font-family: 'Georama', sans-serif;
+    font-weight: 700;
+    letter-spacing: 2px;
+}
 
 body{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Minecraft-Regular';
+    
     background-image: url("./neon-highway-4k-nz.jpg");
     background-size: cover;
     color: white;
 }
-*{
-    font-family: "Minecraft-Regular";
-}
+
 
 button:hover{
     cursor: pointer;
+
 }

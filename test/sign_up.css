@@ -1,3 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Commissioner&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap');
+/* font-family: 'Commissioner', sans-serif; */
+/* font-family: 'Montserrat', sans-serif; */
+@import url('https://fonts.googleapis.com/css2?family=Georama:wght@100&display=swap');
+/* font-family: 'Georama', sans-serif; */
+@import url('https://fonts.googleapis.com/css2?family=Gowun+Dodum&display=swap');
+/* font-family: 'Gowun Dodum', sans-serif; */
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap');
+/* font-family: 'Quicksand', sans-serif; */
+@import url('https://fonts.googleapis.com/css2?family=Gowun+Batang&display=swap');
+/* font-family: 'Gowun Batang', serif; */
+*{
+    font-family: 'Georama', sans-serif;
+}
+
 .input-form{
     display: flex;
     flex-direction: column;
@@ -24,6 +40,7 @@
         justify-content: center;
         align-items: center;
         flex-direction: column;
+        
     }
         .input-form form input, textarea{
             background-color: white;
@@ -48,8 +65,24 @@
         }
         .input-form .buttons{
         margin-top: 1em;
+        
         }
         .input-form .buttons button{
             padding: 0.5em;
             border-radius: 5px;
+
         }
+
+    .submit input{
+        font-size: 17px;
+        background: linear-gradient(
+            to left,
+            #0a0035,
+            #1900bfe2,
+            #120064,
+            #1f0066,
+            #3f0097,
+            #26004d,
+            #310872);
+        color: #ede8e5;
+    }
