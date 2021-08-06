@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    
+    <link rel="stylesheet" href="sign_up.css">
+    <link rel="stylesheet" href="sign_up2.css">
+</head>
+    <body>
+        <div class="input-form">
+            <img src="#" alt="">
+            <div class="form">
+                <form id="form">
+                    <h1>Register</h1>
+                    <div class="input-box name-input">
+                        <label for="name">Your name: </label>
+                        <input type="text" id="name" name="name">
+                        <div id="name-error" class="error"></div>
+                    </div>
+                    <div class="input-box username-input">
+                        <label for="username">Your username: </label>
+                        <input type="text" id="username" name="username">
+                        <div id="username-error" class="error"></div>
+                        <div id="longer-error" class="error"></div>
+                        <div id="shorter-error" class="error"></div>
+                    </div>
+                    <div class="input-box password-input">
+                        <label for="password">Password: </label>
+                        <input type="password" id="password" name="password">
+                        <div id="password-error" class="error"></div>
+                        <div id="long-error" class="error"></div>
+                        <div id="short-error" class="error"></div>
+                        <div id="lower-error" class="error"></div>
+                        <div id="upper-error" class="error"></div>
+                    </div>
+                    <div class="input-box age-input">
+                        <input type="radio" id="under_13" name="age" value="under_13">
+                        <label for="under_13">Under 13</label>
+                        <input type="radio" id="over_13" name="age" value="over_13">
+                        <label for="over_13">Over 13</label>
+                        <div id="age-error" class="error"></div>
+                    </div>
+                    <div class="input-box submit">
+                        <input type="submit" value="Submit">
+                    </div>
+                </form>
+            </div>
+        </div>
+</body>
+<script src="sign_up.js"></script>
+</html>

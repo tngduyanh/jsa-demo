@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Georama:wght@100&display=swap');
+/* font-family: 'Georama', sans-serif; */
+@import url('https://fonts.googleapis.com/css2?family=Gowun+Dodum&display=swap');
+/* font-family: 'Gowun Dodum', sans-serif; */
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap');
+/* font-family: 'Quicksand', sans-serif; */
+@import url('https://fonts.googleapis.com/css2?family=Gowun+Batang&display=swap');
+/* font-family: 'Gowun Batang', serif; */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    
+}
+
+.header{
+    background-image: url("../brnd.jpg");
+    height: 700px;
+    background-size: cover;
+    display: flex;
+    flex-direction: row;
+    
+}
+
+.logo img{
+    width: 100px;
+}
+
+.taskbar{
+    justify-content: space-around;
+}
+
+.taskbar a{
+    color: white;
+    font-family: 'Georama', sans-serif;
+    font-size: 22px;
+    font-weight: 600;
+    z-index: 4;
+    position: relative;
+    display: flex;
+    
+    padding: 0 30px;
+    color: white;
+    text-decoration: none;
+    list-style: none;
+    
+}
