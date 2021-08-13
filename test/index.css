@@ -18,6 +18,42 @@
     text-decoration: none;
     font-family: 'Georama', sans-serif;
     font-weight: 700;
+    letter-spacing: 1.25px;
+}
+
+@import url(https://fonts.googleapis.com/css?family=Open+Sans);
+
+.search {
+  width: 100%;
+  position: relative;
+  display: flex;
+}
+
+.searchTerm {
+  width: 100%;
+  border: 3px solid #0006bab8;
+  border-right: none;
+  padding: 5px;
+  height: 40px;
+  border-radius: 5px 0 0 5px;
+  outline: none;
+  color: #002ea2;
+}
+
+.searchTerm:focus{
+  color: #0006ae;
+}
+
+.searchButton {
+  width: 40px;
+  height: 36px;
+  border: 1px solid #0006a7c7;
+  background: #00129bc7;
+  text-align: center;
+  color: #fff;
+  border-radius: 0 5px 5px 0;
+  cursor: pointer;
+  font-size: 20px;
 }
 
 .max-width{
@@ -37,7 +73,7 @@ nav .link-menu a{
     display: inline-block;
     padding: 0 30px;
     color: white;
-    letter-spacing: -0.5px;
+    letter-spacing: 0.5px;
     text-decoration: none;
 }
 
