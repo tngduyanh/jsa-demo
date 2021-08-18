@@ -26,7 +26,7 @@
         margin-bottom: 30px;
     }
     .input-form .form{
-        background-image: url("./galaxy-background-tumblr.jpg");
+        background-image: url("../jpg/galaxy-background-tumblr.jpg");
         border-radius: 20px;
         background-size: cover;
     }
@@ -74,7 +74,7 @@
         }
 
     .submit input{
-        font-size: 17px;
+        font-size: 20px;
         background: linear-gradient(
             to left,
             #0a0035,

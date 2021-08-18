@@ -368,25 +368,25 @@ body{
 
 .ab {
     border: 10px solid rgba(0, 13, 71, 0.829);
-    width: 400px;
+    width: 420px;
   }
   .clgt {
-    width: 380px;
-    height: 400px;
+    width: 400px;
+    height: 300px;
   }
   .bo:hover {
     background-color: cornflowerblue;
   }
   .kobe {
     border: 10px solid rgba(0, 13, 71, 0.829);
-    width: 500px;
+    width: 420px;
     height: 700px;
   }
   .kobe2 {
-    width: 480px;
-    height: 400px;
+    width: 400px;
+    height: 300px;
   }
-  .bo:ha {
+  .bo.ha {
     background-color: cornflowerblue;
   }
 
@@ -396,11 +396,11 @@ body{
 
 .ac {
   border: 10px solid rgba(0, 13, 71, 0.829);
-  width: 500px;
+  width: 420px;
 }
 .buoi {
-  width: 480px;
-  height: 400px;
+  width: 400px;
+  height: 300px;
 }
 .cac:hover {
   background-color: cornflowerblue;
