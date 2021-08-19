@@ -79,7 +79,7 @@ nav .link-menu a{
 }
 
 body{
-    background-image: url("./brg.jpg");
+    background-image: url("../jpg/brg.jpg");
     background-size:cover;
     color: rgb(255, 255, 255);
 }
@@ -112,7 +112,7 @@ body{
 }
 
 .home-menu{
-    background-image: url("./brnd.jpg");
+    background-image: url("../jpg/brnd.jpg");
     height: 400px;
     background-size: cover;
 
