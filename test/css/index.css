@@ -112,7 +112,7 @@ body{
 
 .home-menu{
     background-image: url("../jpg/brnd.jpg");
-    height: 400px;
+    height: 200px;
     background-size: cover;
 
     position: relative;
@@ -369,7 +369,7 @@ body{
 .ab {
     border: 10px solid rgba(0, 13, 71, 0.829);
     width: 420px;
-    height: 560px;
+    height: 600px;
   }
   .clgt {
     width: 400px;
@@ -381,7 +381,7 @@ body{
   .kobe {
     border: 10px solid rgba(0, 13, 71, 0.829);
     width: 420px;
-    height: 560px;
+    height: 600px;
   }
   .kobe2 {
     width: 400px;
@@ -398,7 +398,7 @@ body{
 .ac {
   border: 10px solid rgba(0, 13, 71, 0.829);
   width: 420px;
-  height: 560px;
+  height: 600px;
 }
 .buoi {
   width: 400px;

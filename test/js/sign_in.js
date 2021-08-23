@@ -84,25 +84,23 @@ form.addEventListener("submit", (e) =>{
       }
      
 
-    // let jsonstring = JSON.stringify(data)
 
-    // console.log(data);
-    // console.log(jsonstring);
 
-    // localStorage.setItem("user",jsonstring)
+    // console.log(localStorage.getItem("user"));
 
-    // // console.log(localStorage.getItem("user"));
-console.log(data);
-      signUp(data);
+      logIn(data);
 
 }) 
-  
-function signUp(signUpData){
-        if (localStorage.getItem(signUpData.username) != null) {
-          alert("Username đã tồn tại, hãy chọn username khác!")
-        }
-        else{
-          localStorage.setItem(signUpData.username, signUpData.password)
-          alert("Đăng kí thành công, vui lòng trở về đăng nhập!")
-        }
+
+function logIn(LoginData){
+    if (localStorage.getItem(LoginData.username) == null) {
+        alert("Username này không tồn tại!")
+    }
+    else if (localStorage.getItem(LoginData.username) != LoginData.password) {
+        alert("Passwork không đúng!")
+    }
+    else{
+        localStorage.setItem("currentUser", LoginData.username)
+        alert("Login thành công!")
+    }
 }

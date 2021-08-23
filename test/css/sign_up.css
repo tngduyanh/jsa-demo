@@ -86,3 +86,19 @@
             #310872);
         color: #ede8e5;
     }
+
+    a button {
+        font-size: 20px;
+        background: linear-gradient(
+            to left,
+            #0a0035,
+            #1900bfe2,
+            #120064,
+            #1f0066,
+            #3f0097,
+            #26004d,
+            #310872);
+        color: #ede8e5;
+        padding: 0.5em;
+        border-radius: 10px;
+    }
