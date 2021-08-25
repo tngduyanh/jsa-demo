@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Home</title>
+    <title>Games</title>
     <link rel="icon" href="../jpg/screenshot_1628239118.png">
     <link href="https://pro.fontawesome.com/releases/v5.12.0/css/all.css" rel="stylesheet">
     <link rel="stylesheet" href="../css/index.css">
@@ -14,38 +14,45 @@
         <div class="opacity-menu"></div>
         <nav>
             <div class="max-width">
-                <div class="logo">
-                    <img src="../jpg/screenshot_1628239118.png" alt="">
-                </div>
-                <div class="link-menu">
- 
-                  <a href="index.html">
-                    <li>OUR PAGE</li>
-                </a>
-                <a href="#">
-                    <li>GAMES</li>
-                </a>
-                <a href="#">
-                    <li>OTHERS</li>
-                </a>
-                <a href="./sign_up.html">
-                    <li>SIGN UP</li>
-                </a>
-
-                    <div class="wrap">
-                      <div class="search">
-                         <input type="text" class="searchTerm" placeholder="What are you looking for?">
-                         <button type="submit" class="searchButton">
-                           <i class="fa fa-search"></i>
-                        </button>
-                      </div>
-                   </div>
-                   
-                </div>            
+              <div class="logo">
+                <a href="home.html"><img src="../jpg/screenshot_1628239118.png" alt=""></a>
             </div>
-        </nav>
-        
 
+            <div class="link-menu task" id="task"> 
+              <a href="home.html">
+                HOME
+            </a>
+            <a href="index.html">
+                GAMES
+            </a>
+            <a href="#">
+                OTHERS
+            </a>
+
+            </div>
+
+                <div class="link-menu acc" id="account">
+                  <div class="box">
+                    
+                    <form class="sbox" action="/search" method="get">
+                      <i class="fa fa-search"></i>
+                    <input class="stext" type="text" name="q" placeholder="Searching...">
+                    <a class="sbutton" type="submit" href="javascript:void(0);">
+                    
+                    </a>
+                    </form>
+                    </div>
+                    <a href="./sign_in.html" id="in"></a>
+                  
+
+                <a href="#" id="sign-out">
+                  
+                </a> 
+
+ 
+                </div>   
+            </div>
+        </nav>      
     </div>
         <!-- <div class="content-menu">
             <div class="text">
@@ -56,21 +63,22 @@
 
             </div>
         </div> -->
-    
-        <div id="hello" style="margin: 20px 25px;"></div>
+        <marquee  direction="left" style="width: 70%; margin-left: 15%; margin-top: 20px;"><div style="display: flex;flex-direction: row;"> <i style="font-size: 40px; margin-right: 20px;" class="far fa-bell-on"></i><div style="font-size: 30px;" id="hello" ></div>
+        </div></marquee>
         
-        <button id="sign-out">Sign out</button>
+        
+        
+        <!-- <button id="sign-out">Sign out</button> -->
 
 
 
-        <div class="home-content">
+
+        <div class="home-content" style="margin-top: -100px;">
             <div class="max-width">
                 <p class="title">
                 Popular games for mobile
                 </p>
-                <div class="orange-bar">
-                </div>
-    
+                <div class="orange-bar"></div>    
             </div>
         </div>
                 
@@ -315,7 +323,7 @@
       </div>
     
  
-    <div class="home-banner">
+    <div class="home-banner" style="margin-bottom: 20px;">
         <div class="banner-image"><img src="../jpg/garena.jpg" alt=""></div>
         <div class="banner-image"><img src="../jpg/riot.png" alt=""></div>
         <div class="banner-image"><img src="../jpg/tcnt.jpg" alt=""></div>
@@ -331,29 +339,23 @@
 <div class="footer">
     <div class="max-width">
         <div class="info-top">
-            <ul class="menu">
-                <a href="#">
-                    <li>About us</li>
-                </a>
-                <a href="#">
-                    <li>Blog</li>
-                </a>
-                <a href="#">
-                    <li>Press</li>
-                </a>
-                <a href="#">
-                    <li>IOS App</li>
-                </a>
-                <a href="#">
-                    <li>Android App</li>
-                </a>
+            <ul class="menu" style="font-size: 30px;">
+              <a style="font-size: 30px;" href="home.html">
+                <li>HOME</li>
+              </a>
+              <a style="font-size: 30px;" href="index.html">
+                <li>GAMES</li>
+              </a>
+              <a style="font-size: 30px;" href="#">
+                <li>OTHERS</li>
+              </a>
             </ul>
  
             <div class="icon-contact">
-                <i class="fab fa-facebook-square"></i>
-                <i class="fab fa-twitter-square"></i>
-                <i class="fab fa-google-plus-g"></i>
-                <i class="fab fa-instagram"></i>
+                <i style="font-size: 50px;" class="fab fa-facebook-square"></i>
+                <i style="font-size: 50px;" class="fab fa-twitter-square"></i>
+                <i style="font-size: 50px;" class="fab fa-google-plus-g"></i>
+                <i style="font-size: 50px;" class="fab fa-instagram"></i>
             </div>
         </div>
  

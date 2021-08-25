@@ -3,11 +3,11 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sign Up</title>
+    <title>Sign In</title>
     <link rel="icon" href="../jpg/screenshot_1628239118.png">
-
-    <link rel="stylesheet" href="../css/sign_up.css">
-    <link rel="stylesheet" href="../css/sign_up2.css">
+    <link href="https://pro.fontawesome.com/releases/v5.12.0/css/all.css" rel="stylesheet">
+    <link rel="stylesheet" href="../css/sign_in.css">
+    
 </head>
     <body>
         <div class="home-menu" >
@@ -15,37 +15,45 @@
             <nav>
                 <div class="max-width">
                     <div class="logo">
-                        <img src="../jpg/screenshot_1628239118.png" alt="">
+                        <a href="home.html"><img src="../jpg/screenshot_1628239118.png" alt=""></a>
                     </div>
-                    <div class="link-menu">
+    
+                    <div class="link-menu task" id="task"> 
+                      <a href="home.html">
+                        HOME
+                    </a>
+                    <a href="index.html">
+                        GAMES
+                    </a>
+                    <a href="#">
+                        OTHERS
+                    </a>
+    
+                    </div>
+    
+                    <div class="link-menu acc" id="account">
+                      <div class="box">
+                        
+                        <form class="sbox" action="/search" method="get">
+                          <i class="fa fa-search"></i>
+                        <input class="stext" type="text" name="q" placeholder="Searching...">
+                        <a class="sbutton" type="submit" href="javascript:void(0);">
+                        
+                        </a>
+                        </form>
+                        </div>
+                        <a href="./sign_in.html">
+                          SIGN IN
+                      </a>
+
+                    <a href="#" id="sign-out">
+                      SIGN OUT
+                    </a> 
+    
      
-                      <a href="index.html">
-                        <li>OUR PAGE</li>
-                    </a>
-                    <a href="#">
-                        <li>GAMES</li>
-                    </a>
-                    <a href="#">
-                        <li>OTHERS</li>
-                    </a>
-                    <a href="./sign_up.html">
-                        <li>SIGN UP</li>
-                    </a>
-    
-                        <div class="wrap">
-                          <div class="search">
-                             <input type="text" class="searchTerm" placeholder="What are you looking for?">
-                             <button type="submit" class="searchButton">
-                               <i class="fa fa-search"></i>
-                            </button>
-                          </div>
-                       </div>
-                       
-                    </div>            
+                    </div>   
                 </div>
-            </nav>
-            
-    
+            </nav>      
         </div>
 
 
@@ -78,16 +86,20 @@
                     </div>
                     <div>
                 
-                    <div class="input-box submit">
+                    <div style="margin-left: 100px;" class="input-box submit">
                         <input type="submit" value="Submit">
                         
                     </div>
-
+                    <div >
+                        <p>Doesn't got an account yet?</p>
+                        <a style="color: white;" href="sign_up.html">Create an account now!</a>
+                    </div>
                 
                 </div>
                 </form>
                 
             </div>
+            
         </div>
 </body>
 <script src="../js/sign_in.js"></script>

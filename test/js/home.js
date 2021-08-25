@@ -4,7 +4,7 @@ if (localStorage.getItem("currentUser") == null ) {
     hello.innerHTML = "Bạn chưa đăng nhập!"
 }
 else{
-    hello.innerHTML =  "Xin chào " + localStorage.getItem("currentUser") +"! Chào mừng bạn đến với PTA Gaming!"  
+    hello.innerHTML = "Xin chào  " + localStorage.getItem("currentUser") +"! Chào mừng bạn đến với PTA Gaming!"  
 }
 
 
