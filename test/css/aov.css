@@ -119,12 +119,12 @@
 }
 
 .map img{
-    width: 940px;
-    
+    width: 920px;
+    margin-right: 10px;
 }
 
 .hero img{
-    width: 480px;
+    width: 460px;
 }
 
 .chu{
@@ -133,6 +133,30 @@
     line-height: 40px;
     margin-left: 40px;
 }
+
+.choi{
+    margin-bottom: 30px;
+    width: 100%;
+    
+}
+
+.choi .nchu{
+    width: 1400px;
+    margin-left: 250px;
+}
+
+.app{
+    height: 400px;
+    width: 100%;
+    display: flex;
+    background-color: rgba(0, 0, 10, 0.496);
+}
+
+.app img{
+    margin-top: 25px;
+    margin-left: 230px;    
+}
+
 .max-width{
     max-width: 100%;
     padding-top: 50px;
@@ -146,6 +170,8 @@
     justify-content: center;
     display: flex;
     flex-direction: row;
+    margin-bottom: 40px;
+    
 }
 
 nav .max-width{
@@ -269,11 +295,12 @@ body{
     margin-bottom: 20px;
 }
 
-.max-width .orange-bar{
-    width: 100px;
-    height: 2px;
-    background-color: orange;
-    margin-top: 30px;
+.orange-bar{
+    width: 200px;
+    height: 3px;
+    background-color: rgba(255, 132, 0, 0.863);
+    margin-left: 50px;
+    align-items: center;
 }
 /* 
 .home-content .max-width{

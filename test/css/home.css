@@ -85,7 +85,7 @@ p{
           }
          .slide-wrapper {
             width: 6000px;
-            -webkit-animation: slide 30s ease infinite;
+            -webkit-animation: slide 20s ease infinite;
           }
          .slide {
             float: left;
